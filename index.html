@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Oceania Flight</title>
+    <script type="text/javascript" src="three.js-r119/build/three.min.js"></script>
+    <script type="text/javascript" src="script/THREEx.KeyboardState.js"></script>
+    <script type="text/javascript" src="script/THREEx.FullScreen.js"></script>
+    <script type="text/javascript" src="script/THREEx.WindowResize.js"></script>
+    <script type="text/javascript" src="script/fontawesome.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/ocean.css" />
+    <link rel="stylesheet" type="text/css" href="css/game.css" />
+    <link rel="stylesheet" type="text/css" href="css/font.css" />
+    <link rel="stylesheet" type="text/css" href="css/popup.css" />
+    <link rel="stylesheet" type="text/css" href="css/burger.css" />
+</head>
+
+<body id="body">
+
+<!--<a href="spaceGame.html">-->
+<!--    <button>Space</button>-->
+<!--</a>-->
+    <div class="score-container">
+        <div id="score"></div>
+    </div>
+    <div class="status" id="status"><h2>You Be Dead</h2>
+        Press Space To Continue
+    </div>
+    <div class="status" id="GameOver"><h2>Game Over</h2>
+        <br/><br/>
+        <div id="Kills">0</div>
+        <div id="Bullets">0</div>
+        <br/><br/>
+        <h3>Press Space To Play Again</h3>
+    </div>
+    <div class="status" id="Start"><h2>自由飞行</h2>
+        <br>使用方向键进行移动
+        <br>按X键射击
+        <br>按M键切换到太空模式<br>
+        <br>得分超过1000获得胜利！低于-200死亡<br>
+        <br>撞到金字塔形障碍物扣100分
+        <br>击中金字塔形障碍物加300分
+        <br><br>
+        <h3>Press Space To Play</h3>
+    </div>
+    <audio src="asset/sound/collide.wav" preload="auto" id="collide_sound"></audio>
+    <audio src="asset/sound/JiroSummer.mp3" preload="auto" id="background_music"></audio>
+    <audio src="asset/sound/explode.wav" preload="auto" id="mingzhong_sound"></audio>
+</body>
+<script src="js/oceanGame.js" type="module"></script>
+</html>

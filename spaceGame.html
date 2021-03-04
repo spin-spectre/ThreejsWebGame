@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>STAR TREK</title>
+    <script type="text/javascript" src="three.js-r119/build/three.min.js"></script>
+    <script type="text/javascript" src="script/THREEx.KeyboardState.js"></script>
+    <script type="text/javascript" src="script/THREEx.FullScreen.js"></script>
+    <script type="text/javascript" src="script/THREEx.WindowResize.js"></script>
+<!--    <script type="text/javascript" src="script/anime.js"></script>-->
+    <script type="text/javascript" src="script/fontawesome.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/game.css" />
+    <link rel="stylesheet" type="text/css" href="css/font.css" />
+<!--    <link rel='stylesheet' href='./v/bootstrap.min.css'>-->
+    <link rel="stylesheet" href="css/score.css" />
+    <link rel="stylesheet" href="css/burger.css" />
+</head>
+
+<body id="body">
+<div id="app"></div>
+    <input type="checkbox" id="active">
+    <label for="active" class="menu-btn" id="burger"><i class="fas fa-bars"></i></label>
+    <div class="wrapper">
+        <ul>
+            <li><a href="#">自由飞行吧！</a></li>
+
+            <li><a href="index.html">海洋模式</a></li>
+            <li><a href="spaceGame.html">太空模式</a></li>
+        </ul>
+    </div>
+
+    <div id="dist">
+        <div class="label">scores</div>
+        <div id="distValue">000</div>
+    </div>
+
+    <audio src="asset/sound/collide.wav" preload="auto" id="collide_sound"></audio>
+    <audio src="asset/sound/ImperialMarch.mp3" preload="auto" id="background_music"></audio>
+    <audio src="asset/sound/explode.wav" preload="auto" id="mingzhong_sound"></audio>
+</body>
+
+<script src="js/spaceGame.js" type="module"></script>
+</html>

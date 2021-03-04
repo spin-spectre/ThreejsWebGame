@@ -1,0 +1,60 @@
+# Blender MTL File: 'plane.blend'
+# Material Count: 5
+
+newmtl 03_-_Default.001
+Ns 287.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.286275 0.458824 0.650980
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 0.500000
+illum 6
+
+newmtl body.001
+Ns 18.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Bump -bm 0.000000 Meshes\\havilland_body_norm.png
+map_Kd Meshes\\havilland_body_diff.png
+
+newmtl cok1
+Ns 18.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Bump Meshes\\havilland_cockpit_norm.png
+map_Kd Meshes\\havilland_cockpit_diff2.png
+
+newmtl cok2.001
+Ns 18.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Bump Meshes\\havilland_cockpit_norm.png
+map_Kd Meshes\\ggg.png
+
+newmtl wing.001
+Ns 18.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Bump Meshes\\havilland_wings_norm.png
+map_Kd Meshes\\havilland_wings_diff.png
